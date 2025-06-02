@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        .example1{
+            width: 400px;
+            height: 200px;
+            border: 1px solid black;
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .example2{
+            width: 400px;
+            height: 200px;
+            border: 6px solid black;
+            padding: 50px;
+            margin: 20px;
+            box-sizing: content-box;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Box model example</h1>
+    <p class="example1">My content example</p>
+    <hr style="width: 100%; height: 2px; background-color: black;">
+    <p class="example2">My contont example 2</p>
+    <hr style="width: 100%; height: 2px; background-color: black;">
+
+
+
+    
+</body>
+</html>
